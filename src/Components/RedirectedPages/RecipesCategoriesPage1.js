@@ -13,7 +13,6 @@ const RecipesCategoriesPage1 = () => {
     const [data, setData] = useState([])
 
     const params = useParams()
-    console.log(params)
 
     const APP_ID = 'e95f07ed'
     const APP_KEY = 'a26cf3b8f2504e6eb9e9db8524fe4a27'
@@ -21,7 +20,6 @@ const RecipesCategoriesPage1 = () => {
     useEffect(() => {
         axios.get(`https://api.edamam.com/search?q=${params.recipename}&app_id=${APP_ID}&app_key=${APP_KEY}`)
             .then((response) => setData(response.data.hits))
-        console.log(data)
     }, [params.recipename])
 
 
