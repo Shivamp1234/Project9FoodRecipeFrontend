@@ -10,7 +10,7 @@ import { AiFillCamera } from 'react-icons/ai'
 import axios from 'axios'
 
 const AddYourOwnRecipePage = () => {
-    const token = localStorage.getItem('recievedToken')
+    // const token = localStorage.getItem('recievedToken')
 
     const [recipeTitle, setRecipeTitle] = useState('')
     const [recipeDescription, setRecipeDescription] = useState('')
