@@ -56,7 +56,7 @@ const SavedPageRecipes = ({ recipe }) => {
                     {
                         RECIPE.map((element, index) => (
                             <div id='saved-page-added-from-recipes'>
-                                <img src={element.recipe.image} alt=''></img>
+                                <Link to={`/recipedescription/${element.recipe.label}`} ><img src={element.recipe.image} alt=''></img></Link>
                                 <h3>{element.recipe.label}</h3>
                             </div>
                         ))
