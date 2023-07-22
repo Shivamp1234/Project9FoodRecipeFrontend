@@ -1060,7 +1060,7 @@ h1 {
 }
 
 .home-page-fresh-from-our-community-cards {
-    width: 63rem;
+    width: 64.5rem;
     height: 50rem;
     border: 5px solid rgb(228, 228, 228);
     padding: 3rem;
@@ -1185,12 +1185,12 @@ h1 {
 }
 
 #home-page-trending-now-container img {
-    width: 63rem;
+    width: 64.5rem;
     margin-bottom: 1rem;
 }
 
 #home-page-trending-now-container div {
-    width: 63rem;
+    width: 64.5rem;
     font-size: 4rem;
 }
 
@@ -1238,12 +1238,12 @@ h1 {
 }
 
 #home-page-more-ideas-container img {
-    width: 63rem;
+    width: 64.5rem;
     margin-bottom: 1rem;
 }
 
 #home-page-more-ideas-container div {
-    width: 63rem;
+    width: 64.5rem;
     font-size: 4rem;
 }
 
@@ -1282,12 +1282,12 @@ h1 {
 }
 
 #home-page-fan-favourites-container img {
-    width: 63rem;
+    width: 64.5rem;
     margin-bottom: 1rem;
 }
 
 #home-page-fan-favourites-container div {
-    width: 63rem;
+    width: 64.5rem;
     font-size: 4rem;
 }
 
@@ -1436,7 +1436,13 @@ h1 {
 #i-want-to-make-search-bar input[type=search] {
     width: 30rem;
     height: 5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+#i-want-to-make-search-bar button {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.5rem;
 }
 
 #i-want-to-make-suggested {
